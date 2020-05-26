@@ -33,7 +33,7 @@ function showNotes() {
                     <div class="card-body">
                         <h5 class="card-title">Note ${index + 1}</h5>
                         <div class="form-group">
-                        </div><p class="card-text"> ${element}</p>
+                        </div><p class="card-text" contenteditable="true"> ${element}</p>
                         <button id="${index}"onclick="deleteNote(this.id)" class="btn btn-primary">Delete Note</button>
                     </div>
                 </div>`;
